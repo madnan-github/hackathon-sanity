@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter, Yuji_Mai } from "next/font/google";
 import { inter, poppins, pacifico, yuji_mai } from "@/components/fonts";
 import "./globals.css";
 import Header from "@/components/Header";
