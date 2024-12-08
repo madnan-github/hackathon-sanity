@@ -1,9 +1,26 @@
-import Image from "next/image";
+import Hero from '@/components/Hero'
+import FoodCategories from '@/components/FoodCategories'
+import ExtraordinaryTaste from '@/components/ExtraordinaryTaste'
+import Statistics from '@/components/Statistics'
+import Menu from '@/components/Menu'
+import Chefs from '@/components/Chefs'
+import Testimonials from '@/components/Testimonials'
+import BlogPosts from '@/components/BlogPosts'
+import CreateBest from '@/components/createbest'
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-blue-500 text-2xl text-center">Home</h1>
-    </main>
-  );
+    <>
+      <Hero />
+      <CreateBest/>
+      <FoodCategories />
+      <ExtraordinaryTaste />
+      <Statistics />
+      <Menu />
+      <Chefs />
+      <Testimonials />
+      <BlogPosts />
+    </>
+  )
 }
+
