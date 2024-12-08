@@ -17,7 +17,9 @@ const config: Config = {
 			inter: ['var(--inter)'],
 			poppins: ['var(--poppins)'],
 			pacifico: ['var(--pacifico)'],
-			yuji_mai: ['var(--yujimai)'],
+			yujimai: ['var(--yujimai)'],
+			greatvibes: ['var(--greatvibes)'],
+
 		},
   		borderRadius: {
   			lg: 'var(--radius)',
