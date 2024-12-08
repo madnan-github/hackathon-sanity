@@ -14,8 +14,6 @@ export default function CreateBest() {
     <section className="max-w-[1929px] mx-auto h-screen flex bg-[#0D0D0D] py-16 px-80">
       {/* left side */}
       <div>
-
-      
       <h2 className="text-[#ff9F0D] font-greatvibes text-2xl leading-10 mb-2">About Us</h2>
       <h1 className="text-5xl font-bold text-[#ff9F0D] leading-[56px] mb-8">We<span className='text-white'>Create the Best<br />food product</span></h1>
       <p className="font-inter text-base text-white font-normal leading-6 mb-8 w-[526px] h-">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
@@ -34,31 +32,38 @@ export default function CreateBest() {
         Read More
         </Link>
         </div>
-      {/* right side */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            <Image
-              src="/aboutus/001.png"
-              alt="food"
-              width={300}
-              height={300}
-              className="rounded-lg"
-            />
-       <Image
+ {/* right side */}
+ <div className="md:mt-0 mt-10">
+        <div>
+        <Image
+          src="/aboutus/001.png"
+          alt="Hero dish"
+          width={660}
+          height={330}
+          className="rounded-lg"
+        />
+        </div>
+        <div className='grid md:grid-cols-2 mt-4 '>
+        <div>
+        <Image
               src="/aboutus/002.png"
               alt="food"
-              width={300}
-              height={300}
-              className="rounded-lg"
+              width={322}
+              height={194}
+              className="rounded-lg "
             />
-            <Image
+        </div>
+        <div className='md:mt-0 mt-4'>
+        <Image
               src="/aboutus/003.png"
               alt="food"
-              width={300}
-              height={300}
+              width={322}
+              height={194}
               className="rounded-lg"
             />
+        </div>
+        </div>
       </div>
     </section>
   )
 }
-
