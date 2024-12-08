@@ -14,10 +14,11 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="max-w-[1929px] mx-auto py-16 px-6 bg-gray-900">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        <span className="text-orange-500">What our clients are saying</span>
-      </h2>
+    <section className="max-w-[1929px] mx-auto py-16 px-6 bg-[#0D0D0D]">
+      <div className="w-[1282px] mx-auto">
+      <h2 className="text-[#ff9F0D] font-greatvibes font-normal text-[32px] leading-10 mb-2">Testimonials</h2>
+      <h1 className="text-5xl font-bold text-white leading-[56px] mb-[123px]">What our clients are saying</h1>
+
       <div className="max-w-3xl mx-auto">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-gray-800 rounded-lg p-6 mb-8">
@@ -37,7 +38,7 @@ export default function Testimonials() {
           </div>
         ))}
       </div>
+      </div>
     </section>
   )
 }
-

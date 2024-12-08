@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { inter, poppins, pacifico, yujimai, greatvibes } from "@/components/fonts";
+import { inter, greatvibes } from "@/components/fonts";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={(inter.variable, poppins.variable, pacifico.variable, yujimai.variable, greatvibes.variable)}>
+      <body className={(inter.variable, greatvibes.variable)}>
         <Header />
         {children}
         <Footer />
