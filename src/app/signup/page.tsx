@@ -3,11 +3,19 @@ import { PiUser } from "react-icons/pi";
 import { AiOutlineMail } from "react-icons/ai";
 import { TiLockClosedOutline } from "react-icons/ti";
 import Image from 'next/image';
+import { TopHeader } from '@/components/header/topHeader';
+import { PHeader } from '@/components/header/t2';
 
 
 export default function SignUp() {
   return (
+
     <main className='w-[1920px'>
+       {/* import header */}
+                <TopHeader />
+                <PHeader title='Sign up page'/>
+                 {/* import header end*/}
+
     <div className="h-[624px] flex py-[120px] items-center justify-center bg-gray-50">
       <div className="w-[424px] py-8 px-9 bg-white shadow-sm">
         <h2 className="text-xl px-37 font-bold mb-8">Sign Up</h2>
@@ -75,12 +83,12 @@ export default function SignUp() {
 
           <div className="mt-6 space-y-3">
             <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border border-gray-200 text-base hover:bg-gray-50 transition-colors">
-              <Image src="/signin-up/google.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
+              <Image src="/signup/google.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
               Sign up with Google
             </button>
 
             <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border border-gray-200 text-base hover:bg-gray-50 transition-colors">
-            <Image src="/signin-up/apple.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
+            <Image src="/signup/apple.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
             Sign up with Apple
             </button>
           </div>

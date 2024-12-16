@@ -9,10 +9,12 @@ import BlogPosts from '@/components/BlogPosts'
 import CreateBest from '@/components/createbest'
 import WhyChooseUs from '@/components/whychose'
 import RestaurantActive from '@/components/resturantActive'
+import Header from '@/components/header/Header'
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <CreateBest/>
       <FoodCategories />
