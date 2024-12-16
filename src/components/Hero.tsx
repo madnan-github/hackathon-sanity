@@ -8,7 +8,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="max-w-[1929px] mx-auto flex relative h-screen bg-[#0D0D0D]">
+    <section className="max-w-[1920px] mx-auto flex relative h-screen bg-[#0D0D0D]">
        <Image
           src="/hero/bgimage.png"
           alt="Hero dish"
@@ -27,7 +27,7 @@ export default function Hero() {
         <SlSocialPintarest className='text-[#ff9F0D] mb-5'/>
         </div>
         <div className='ml-5'>
-        <h2 className="text-[#ff9F0D] font-greatvibes text-2xl font-normal mb-2 leading-10">It`&apos;s Quick & Amazing !</h2>
+        <h2 className="text-[#ff9F0D] font-greatvibes text-2xl font-normal mb-2 leading-10">It&apos;s Quick & Amazing !</h2>
         <h1 className="text-3xl md:text-6xl font-bold text-[#ff9F0D] leading-10 md:leading-[68px] mb-2 md:mb-8 ">Th<span className='text-white'>e Art of speed food Quality</span></h1>
         <p className="text-base text-white font-normal leading-6 mb-8 max-w-md">Lorem ipsum dolor sit amet, consectetur adipiscingelit. Nullam at enim mauris.</p>
       

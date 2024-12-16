@@ -21,7 +21,7 @@ const blogPosts = [
 
 export default function BlogPosts() {
   return (
-<section className="max-w-[1929px] mx-auto py-16 px-6 bg-[#0D0D0D]">
+<section className="max-w-[1920px] mx-auto py-16 px-6 bg-[#0D0D0D]">
     <div className="w-[1329px] mx-auto">
     <h2 className="text-[#ff9F0D] font-greatvibes text-center text-2xl leading-10 mb-2">Blog Post</h2>
     <h1 className="text-5xl font-bold text-center text-[#ff9F0D] leading-[56px] mb-8">La<span className='text-white'>test News & Blog</span></h1>

@@ -4,19 +4,19 @@ import Image from 'next/image'
 import { MdOutlineShoppingBag } from "react-icons/md";
 export default function Header() {
   return (
-    <header className="w-full md:max-w-[1929px] mx-auto bg-black font-inter text-base leading-6 text-white py-4 px-6">
+    <header className="w-full md:max-w-[1920px] mx-auto bg-black font-inter text-base leading-6 text-white py-4 px-6">
       <Link href="#" className='flex justify-center'><Image src="/logo.png" alt="logo" width={109} height={32}/></Link>
       <div className="md:px-80 flex flex-col md:flex-row justify-between items-center">
         {/* <Link href="/" className="text-2xl font-bold text-[#ba9b54]">Food<span>luck</span></Link> */}
         <nav>
           <ul className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/">Menu</Link></li>
-            <li><Link href="/">Blog</Link></li>
-            <li><Link href="/">Pages</Link></li>
-            <li><Link href="/">About</Link></li>
-            <li><Link href="/">Shop</Link></li>
-            <li><Link href="/">Contact</Link></li>
+            <li><Link href="/menu">Menu</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/ourchef">Pages</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/shop">Shop</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
         <div className="relative md:ml-40 mt-4 md:mt-0">

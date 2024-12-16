@@ -11,7 +11,7 @@ const categories = [
 
 export default function CreateBest() {
   return (
-    <section className="max-w-[1929px] mx-auto h-screen flex bg-[#0D0D0D] py-16 px-80">
+    <section className="max-w-[1920px] mx-auto h-screen flex bg-[#0D0D0D] py-16 px-80">
       {/* left side */}
       <div>
       <h2 className="text-[#ff9F0D] font-greatvibes text-2xl leading-10 mb-2">About Us</h2>

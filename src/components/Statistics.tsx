@@ -35,7 +35,7 @@ const stats = [
 
 export default function Statistics() {
   return (
-       <section className="max-w-[1929px] md:max-w-[1923px] h-[469px] mx-auto py-16 px-6 relative bg-[#0D0D0D] ">
+       <section className="max-w-[1920px] h-[469px] mx-auto py-16 px-6 relative bg-[#0D0D0D] ">
     <Image
        src="/icons/bgpic.png"
        alt="Hero dish"

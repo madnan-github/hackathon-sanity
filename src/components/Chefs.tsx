@@ -9,7 +9,7 @@ const chefs = [
 
 export default function Chefs() {
   return (
-    <section className="max-w-[1929px] mx-auto py-16 px-6 bg-[#0D0D0D]">
+    <section className="max-w-[1920px] mx-auto py-16 px-6 bg-[#0D0D0D]">
     <div className="w-[1282px] mx-auto">
     <h2 className="text-[#ff9F0D] font-greatvibes text-center text-2xl leading-10 mb-2">Chefs</h2>
     <h1 className="text-5xl font-bold text-center text-[#ff9F0D] leading-[56px] mb-8">Me<span className='text-white'>et Our Chef</span></h1>

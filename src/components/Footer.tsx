@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="max-w-[1929px] mx-auto bg-gray-900 text-white py-12">
+    <footer className="max-w-[1920px] mx-auto bg-gray-900 text-white py-12">
       <div className="w-[1170px] mx-auto mt-28 h-[56px] flex justify-between">
         <h2 className="text-2xl font-bold text-[#ff9F0D] leading-10 mb-4">
           St<span className="text-white">ill You Need Our Support?</span>

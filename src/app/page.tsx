@@ -7,6 +7,8 @@ import Chefs from '@/components/Chefs'
 import Testimonials from '@/components/Testimonials'
 import BlogPosts from '@/components/BlogPosts'
 import CreateBest from '@/components/createbest'
+import WhyChooseUs from '@/components/whychose'
+import RestaurantActive from '@/components/resturantActive'
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       <Menu />
       <Chefs />
       <Testimonials />
+      <RestaurantActive />
       <BlogPosts />
     </>
   )
