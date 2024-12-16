@@ -26,8 +26,8 @@ const ProductList: React.FC = () => {
                 <p>{lproduct.name}</p>
                 {/* <p className="text-gray-700 text-base">${product.price.toFixed(2)}</p> */}
                 <div className="px-6 pb-4">
-    //         <StarRating rating={lproduct.rating} />
-    //       </div>
+             <StarRating rating={lproduct.rating} />
+           </div>
                 <p>{lproduct.price}</p>
                 </div>
                      ))}
