@@ -24,7 +24,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   return (
     <Container>
       <TopHeader />
-      <PHeader/>  
+      <PHeader title='Shop Details'/>  
 
       <div className="mx-auto px-4 py-16 md:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-8">

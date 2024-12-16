@@ -17,7 +17,7 @@ export default function ErrorPage() {
             Oops! Looks like something went wrong.
           </h2>
           <p className="text-lg text-center text-[#4f4f4f]">
-            Page cannot be found! We'll have it figured out in no time.
+            Page cannot be found! We&apos;ll have it figured out in no time.
           </p>
           <p className="text-lg text-center text-[#4f4f4f] mb-6">
             Meanwhile, check out these fresh ideas:

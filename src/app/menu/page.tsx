@@ -7,7 +7,7 @@ export default function Menu() {
   return (
     <>
     <TopHeader />
-    <PHeader/>  
+    <PHeader title='Our Menu'/>  
     <MainMenu />
     
     

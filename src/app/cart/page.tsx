@@ -7,7 +7,7 @@ export default function CartPage() {
   return (
     <div>
 <TopHeader />
-<PHeader/>
+<PHeader title='Shopping cart'/>
 <ShoppingCart />
 
     </div>

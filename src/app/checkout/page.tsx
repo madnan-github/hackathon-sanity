@@ -7,7 +7,7 @@ export default function Checkout() {
   return (
     <div>
      <TopHeader />
-     <PHeader/>  
+     <PHeader title='Checkout Page'/>  
   <CheckoutPage />
 
     </div>

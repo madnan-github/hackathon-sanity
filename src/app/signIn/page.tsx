@@ -72,7 +72,7 @@ export default function SignIn() {
 
           <div className="mt-6 space-y-3">
           <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border text-base border-gray-200 hover:bg-gray-50 transition-colors">
-              Don't have account ? <Link href={'/signUp'}> <p className='font-bold text-orange-400 hover:text-orange-600'>Sign up</p> </Link>
+              Don&apos;t have account ? <Link href={'/signUp'}> <p className='font-bold text-orange-400 hover:text-orange-600'>Sign up</p> </Link>
             </button>
 
             <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border text-base border-gray-200 hover:bg-gray-50 transition-colors">

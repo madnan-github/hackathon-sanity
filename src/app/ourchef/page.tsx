@@ -7,7 +7,7 @@ export default function ChefPage() {
   return (
     <div>
       <TopHeader />
-      <PHeader />
+      <PHeader title='Our Chef'/>
       <OurChefs />
     </div>
   );
