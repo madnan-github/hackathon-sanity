@@ -10,7 +10,6 @@ import CreateBest from '@/components/createbest'
 import WhyChooseUs from '@/components/whychose'
 import RestaurantActive from '@/components/resturantActive'
 import Header from '@/components/header/Header'
-
 export default function Home() {
   return (
     <>
@@ -23,7 +22,7 @@ export default function Home() {
       <Menu />
       <Chefs />
       <Testimonials />
-      <RestaurantActive />
+      <RestaurantActive />  
       <BlogPosts />
     </>
   )
