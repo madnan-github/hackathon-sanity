@@ -9,6 +9,11 @@ export const product = {
       type: 'string',
     },
     {
+      name: 'id',
+      title: 'Id',
+      type: 'string',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -17,7 +22,6 @@ export const product = {
       name: 'image',
       title: 'Image',
       type: 'image',
-      options: { hotspot: true },
     },
     {
       name: 'category',
