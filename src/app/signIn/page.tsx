@@ -72,16 +72,16 @@ export default function SignIn() {
 
           <div className="mt-6 space-y-3">
           <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border text-base border-gray-200 hover:bg-gray-50 transition-colors">
-              Don&apos;t have account ? <Link href={'/signUp'}> <p className='font-bold text-orange-400 hover:text-orange-600'>Sign up</p> </Link>
+              Don't have account ? <Link href={'/signUp'}> <p className='font-bold text-orange-400 hover:text-orange-600'>Sign up</p> </Link>
             </button>
 
             <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border text-base border-gray-200 hover:bg-gray-50 transition-colors">
-              <Image src="/signin-up/google.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
+              <Image src="/signup/google.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
               Sign up with Google
             </button>
 
             <button className="w-full flex items-center justify-center gap-3 px-4 py-2 border text-base border-gray-200 hover:bg-gray-50 transition-colors">
-            <Image src="/signin-up/apple.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
+            <Image src="/signup/apple.png" alt="google-logo" width={5} height={5}  className="h-5 w-5"/>
             Sign up with Apple
             </button>
           </div>

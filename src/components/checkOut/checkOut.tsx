@@ -1,8 +1,8 @@
 "use client"
-import Image from 'next/image';
 import React, { useState } from 'react';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
 const CheckoutPage = () => {
   const [sameAsShipping, setSameAsShipping] = useState(false);
 
@@ -40,8 +40,8 @@ const CheckoutPage = () => {
           <input type="text" placeholder="" style={inputStyle} />
             <select style={inputStyle}>
             <option>Choose Country</option>
-              <option>Pakistan</option>
               <option>New York</option>
+              <option>Delhi</option>
               <option>Toronto</option>
             </select>
           </div>
@@ -52,8 +52,8 @@ const CheckoutPage = () => {
         <div style={{ display: 'flex', gap: '10px' }}>
             <select style={inputStyle}>
               <option>Choose City</option>
-              <option>Pakistan</option>
               <option>New York</option>
+              <option>Delhi</option>
               <option>Toronto</option>
             </select>
             <input type="text" placeholder="" style={inputStyle} />
@@ -78,13 +78,13 @@ const CheckoutPage = () => {
           </div>
 
           <div style={{ display: 'flex', gap:'10px' }}>
+            <Link href={'/cart'}>
             <button type="button"  className='w-[300px] border-2'>
-            <IoIosArrowBack className=' ml-20'/>
                <span className='mt-[-20px]'> Back to cart</span>
                 </button>
+            </Link>
             <button type="submit" style={buttonStyle} className='w-[300px]'>
                 <span className='mt-2'>Proceed to shipping</span>
-                <IoIosArrowForward className='ml-52 mt-[-20px]'/>
             </button>
           </div>
         </form>
@@ -96,11 +96,9 @@ const CheckoutPage = () => {
         <div>
           {[1, 2, 3].map((item, index) => (
             <div key={index} style={{ display: 'flex', gap:'20px', marginBottom: '10px' }}>
-              <Image
+              <img
                 src="/checkoutpage/p1.png"
                 alt="Chicken Tikka Kabab"
-                width={50}
-                height={50}
                 style={{ width: '50px', height: '50px' }}
               />
               <div>

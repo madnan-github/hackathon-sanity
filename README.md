@@ -1,8 +1,6 @@
-
-
 ## Project purpose
 
-# Ecommerce Hackhathon Assignment
+# ecommerce-hackhathon-assignment
 
 This is a [Next.js](https://nextjs.org/) project Tailwind Css  &amp; Typescript with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -24,9 +22,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Key Components
-Landing Page with all its sections
-
+Landing Page
+Product Page
 
 ## Check out on Vercel
 
-Check out Vercel link: [https://ecommerce-hakathon-demo.vercel.app/) for live project.
+Check out our [https://knai9-ecommerce-hackhathon-assignment.vercel.app/) for more details.

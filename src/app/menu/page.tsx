@@ -6,8 +6,10 @@ import React from 'react'
 export default function Menu() {
   return (
     <>
-    <TopHeader />
-    <PHeader title='Our Menu'/>  
+     {/* import header */}
+          <TopHeader />
+          <PHeader title='Our Menu'/>
+           {/* import header end*/}
     <MainMenu />
     
     

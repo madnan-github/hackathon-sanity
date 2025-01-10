@@ -13,21 +13,39 @@ const config: Config = {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
   		},
-		  fontFamily: {
-			inter: ['var(--inter)'],
-			poppins: ['var(--poppins)'],
-			pacifico: ['var(--pacifico)'],
-			yujimai: ['var(--yujimai)'],
-			greatvibes: ['var(--greatvibes)'],
-
-		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+		  fontFamily: {
+			inter: ['var(--inter)'],
+			poppins: ['var(--poppins)'],
+			pacifico: ['var(--pacifico)'],
+			yuji_mai: ['var(--yujimai)'],
+			greatvibes: ['var(--greatvibes)'],
+		},
   		colors: {
-  			background: 'hsl(var(--background))',
+			green:'#195A00',
+			skin:'#AF872F',
+			cofee:'BC9A6C',
+			lightcoffee:'#EDEAE3',
+			yellow:'#FF9F0D',
+			secondry:'#999966',
+			warning:'#E2B93B',
+			success:'#27AE60',
+			info:'#2F80ED',
+			error:'#EB5757',
+			black1:'#1e1e1e',
+			b2:'1d1d1d',
+			b3:'282828',
+			b4:'#0d0d0d',
+			gray1:'#333333',
+			g2:'#4f4f4f',
+			g3:'#828282',
+			g4:'#bdbdbd',
+			g5:'e0e0e0',
+			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',

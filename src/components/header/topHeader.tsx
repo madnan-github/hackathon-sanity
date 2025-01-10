@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
 import { Search, UserRound, ShoppingBag, Menu } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Container } from '@/components/container';
+import { Container } from '../container';
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -114,3 +114,4 @@ export function TopHeader() {
     </Container>
   )
 }
+

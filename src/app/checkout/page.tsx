@@ -6,9 +6,11 @@ import React from 'react'
 export default function Checkout() {
   return (
     <div>
-     <TopHeader />
-     <PHeader title='Checkout Page'/>  
-  <CheckoutPage />
+       {/* import header */}
+                <TopHeader />
+                <PHeader title='Checkout Page'/>
+                 {/* import header end*/}
+<CheckoutPage />
 
     </div>
   )

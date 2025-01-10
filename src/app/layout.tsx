@@ -1,9 +1,11 @@
+
+
 import type { Metadata } from "next";
-import { inter, greatvibes } from "@/components/fonts";
+import { inter, poppins, pacifico, yuji_mai, great_vibes } from "../components/fonts";
 import "./globals.css";
+
 import Footer from "@/components/Footer";
 
-// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={(inter.variable, greatvibes.variable)}>
+      <body className={(inter.variable, poppins.variable, pacifico.variable, yuji_mai.variable, great_vibes.variable)}>
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
