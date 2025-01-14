@@ -1,8 +1,8 @@
 import Image from "next/image"
 import { Star } from 'lucide-react'
 import { blogPosts2, recentPosts2, menuCategories2, popularTags2, galleryImages2, authorProfile2 } from "../../../components/blogPage/blogData2"
-import { Search, ChevronDown } from 'lucide-react'
-import { Container } from '../../../components/container'
+import { Search } from 'lucide-react'
+import { Container } from '@/components/container'
 import { TopHeader } from "@/components/header/topHeader"
 import { PHeader } from "@/components/header/t2"
 export default function BlogDetail() {

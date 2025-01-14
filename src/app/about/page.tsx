@@ -1,9 +1,9 @@
 "use client"
 import Image from 'next/image'
-import { Container } from '../../components/container'
+import { Container } from '@/components/container'
 import Link from 'next/link'
 import { CiPlay1 } from "react-icons/ci";
-import { offers, teamMember, testimonials } from '../../components/aboutUs/aboutData';
+import { offers, teamMember, testimonials } from '@/components/aboutUs/aboutData';
 import TeamMember from '@/components/aboutUs/teamMember';
 import { TopHeader } from '@/components/header/topHeader';
 import { PHeader } from '@/components/header/t2';
