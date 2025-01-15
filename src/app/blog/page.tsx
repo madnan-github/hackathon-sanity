@@ -1,7 +1,7 @@
 import Blog from '@/components/blogPage/blog'
 import React from 'react'
-import { TopHeader } from '@/components/header/topHeader';
-import { PHeader } from '@/components/header/t2';
+import { TopHeader } from '@/components/headers/topHeader';
+import { PHeader } from '@/components/headers/t2';
 import { Container } from '@/components/container'
 export default function BlogPage() {
   return (

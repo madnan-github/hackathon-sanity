@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { AiOutlineMail } from "react-icons/ai";
 import { TiLockClosedOutline } from "react-icons/ti";
 import Image from 'next/image';
-import { TopHeader } from '@/components/header/topHeader';
-import { PHeader } from '@/components/header/t2';
+import { TopHeader } from '@/components/headers/topHeader';
+import { PHeader } from '@/components/headers/t2';
 
 
 export default function SignIn() {

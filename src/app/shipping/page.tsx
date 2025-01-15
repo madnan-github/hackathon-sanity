@@ -1,6 +1,6 @@
 
-import { TopHeader } from '@/components/header/topHeader'
-import { PHeader } from '@/components/header/t2'
+import { TopHeader } from '@/components/headers/topHeader'
+import { PHeader } from '@/components/headers/t2'
 // import ShippingProcess from '@/components/shipping'
 
 export default function ShippingPage() {

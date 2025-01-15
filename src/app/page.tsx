@@ -9,8 +9,7 @@ import Chefs from "@/components/landingPage/Chefs";
 import Testimonials from "@/components/landingPage/Testimonials";
 import ResturantActive from "@/components/landingPage/resturantActive";
 import BlogPosts from "@/components/landingPage/BlogPosts";
-import Header from "@/components/header/header";
-
+import Header from "@/components/headers/header";
 
 
 export default function Home() {

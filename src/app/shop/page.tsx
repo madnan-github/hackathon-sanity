@@ -10,8 +10,8 @@ import { Search, ChevronDown } from 'lucide-react'
 import { products, categories, latestProducts } from '../../components/ourShop/productData'
 import { PaginationProduct } from "../../components/pagination";
 import ProductList from "../../components/ourShop/productList";
-import { PHeader } from '../../components/header/t2';
-import { TopHeader } from '../../components/header/topHeader';
+import { PHeader } from '../../components/headers/t2';
+import { TopHeader } from '../../components/headers/topHeader';
 
 export default function Shop() {
   const [sortBy, setSortBy] = useState('popularity')

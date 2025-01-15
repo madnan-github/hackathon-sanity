@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { CiPlay1 } from "react-icons/ci";
 import { offers, teamMember, testimonials } from '@/components/aboutUs/aboutData';
 import TeamMember from '@/components/aboutUs/teamMember';
-import { TopHeader } from '@/components/header/topHeader';
-import { PHeader } from '@/components/header/t2';
+import { TopHeader } from '@/components/headers/topHeader';
+import { PHeader } from '@/components/headers/t2';
 import Testimonials from '@/components/landingPage/Testimonials';
 import Breakfast from '@/components/ourMenu/breakfast';
 export default function AboutUsPage() {

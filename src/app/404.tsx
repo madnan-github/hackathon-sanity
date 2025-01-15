@@ -29,9 +29,9 @@
 
 
 'use client';
-import { TopHeader } from '@/components/header/topHeader';
+import { TopHeader } from '@/components/headers/topHeader';
 import { Container } from '../components/container';
-import { PHeader } from '@/components/header/t2';
+import { PHeader } from '@/components/headers/t2';
 
 export default function ErrorPage() {
   return (

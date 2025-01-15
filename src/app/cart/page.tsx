@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@/components/container'
-import { TopHeader } from '@/components/header/topHeader'
-import { PHeader } from '@/components/header/t2'
+import { TopHeader } from '@/components/headers/topHeader'
+import { PHeader } from '@/components/headers/t2'
 import { Minus, Plus, Trash2 } from 'lucide-react'
 
 interface CartItem {

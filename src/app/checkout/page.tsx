@@ -1,7 +1,7 @@
 // import CheckoutPage from '@/components/checkOut/checkOut'
 import CheckoutPage from '@/components/checkOut'
-import { PHeader } from '@/components/header/t2'
-import { TopHeader } from '@/components/header/topHeader'
+import { PHeader } from '@/components/headers/t2'
+import { TopHeader } from '@/components/headers/topHeader'
 
 
 export default function Checkout() {

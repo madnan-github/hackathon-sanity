@@ -3,8 +3,8 @@ import { Star } from 'lucide-react'
 import { blogPosts2, recentPosts2, menuCategories2, popularTags2, galleryImages2, authorProfile2 } from "../../../components/blogPage/blogData2"
 import { Search } from 'lucide-react'
 import { Container } from '@/components/container'
-import { TopHeader } from "@/components/header/topHeader"
-import { PHeader } from "@/components/header/t2"
+import { TopHeader } from "@/components/headers/topHeader"
+import { PHeader } from "@/components/headers/t2"
 export default function BlogDetail() {
   return (
      <Container>
