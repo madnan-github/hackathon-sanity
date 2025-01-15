@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaTwitter, FaFacebookF } from "react-icons/fa";
 import { SlSocialPintarest } from "react-icons/sl";
 import { Container } from '../container';
-import Header from '../header/header';
+import Header from '@/components/header/header';
 
 
 export default function Hero() {
