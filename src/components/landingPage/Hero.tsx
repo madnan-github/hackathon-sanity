@@ -6,13 +6,13 @@ import Link from 'next/link';
 import { FaTwitter, FaFacebookF } from "react-icons/fa";
 import { SlSocialPintarest } from "react-icons/sl";
 import { Container } from '../container';
-import Header from '../header/header';
+// import Header from '../header/header';
 
 
 export default function Hero() {
   return (
     <Container>
-      <Header />
+      {/* <Header /> */}
       <section className="mx-auto flex flex-col lg:flex-row relative bg-[#0D0D0D] pb-[650px] ">
         <Image
           src="/hero/bgimage.png"

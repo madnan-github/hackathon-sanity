@@ -9,6 +9,7 @@ import Chefs from "@/components/landingPage/Chefs";
 import Testimonials from "@/components/landingPage/Testimonials";
 import ResturantActive from "@/components/landingPage/resturantActive";
 import BlogPosts from "@/components/landingPage/BlogPosts";
+import Header from "@/components/header/header";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
    <>
    <div className="">
     {/* landing Page */}
+    <Header />
     <Hero />
       <CreateBest/>
       <FoodCategories />
