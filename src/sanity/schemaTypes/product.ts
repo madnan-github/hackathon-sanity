@@ -3,10 +3,15 @@ export default {
     type: 'document',
     title: 'Product',
     fields: [
+      {  
+        name: 'id', 
+        type: 'string',
+        title: 'Id'
+      },
       {
         name: 'slug',
-        title: 'Slug',
         type: 'slug',
+        title: 'Slug',
       },
       {
         name: 'name',
@@ -19,20 +24,22 @@ export default {
         title: 'Description'
       },
       {
+        name: 'image',
+        type: 'image',
+        title: 'Product Image',
+        options: {
+          hotspot: true // Enables cropping and focal point selection
+        }
+      },
+      {
         name: 'price',
         type: 'number',
         title: 'Product Price',
       },
       {
-        name: 'discountPercentage',
+        name: 'price2',
         type: 'number',
-        title: 'Discount Percentage',
-      },
-      {
-        name: 'priceWithoutDiscount',
-        type: 'number',
-        title: 'Price Without Discount',
-        description: 'Original price before discount'
+        title: 'Original Price (optional)',
       },
       {
         name:'rating',
@@ -66,13 +73,5 @@ export default {
         },
         description: 'Add sizes like S , M , L , XL , XXL'
       },
-      {
-        name: 'image',
-        type: 'image',
-        title: 'Product Image',
-        options: {
-          hotspot: true // Enables cropping and focal point selection
-        }
-      }
     ]
   };

@@ -160,14 +160,15 @@ import React from "react";
 // Fetch products using the Sanity client
 const fetchProducts = async (): Promise<IProduct[]> => {
   const query = `*[_type == "product"]{
+    id,
     name,
     "slug": slug.current,
     image,
-    category,
     price,
     price2,
     rating,
-    sell
+    sell,
+    description
   }`;
   return await client.fetch(query);
 };

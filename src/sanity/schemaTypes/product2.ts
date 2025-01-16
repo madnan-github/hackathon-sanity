@@ -1,4 +1,4 @@
-export const product2 = {
+export const product = {
   name: 'product',
   title: 'Product',
   type: 'document',
