@@ -6,8 +6,8 @@ import { Image as Iimage } from "sanity";
 import { useEffect, useState } from 'react';
 import { urlFor } from '@/sanity/lib/image';
 
-// Fetch products using the Sanity client
-const fetchProducts = async (): Promise<IChef[]> => {
+// Fetch chefs using the Sanity client
+const fetchChefs = async (): Promise<IChef[]> => {
   const query = `*[_type == "chef"]{
     slug,
     name,
@@ -50,16 +50,16 @@ export default function OurChefs() {
   //   { name: 'Mustafiz Holy', role: 'Chef', image:  '/ourchef/p12.png' },
   // ]
 
-const [products, setProducts] = useState<IChef[]>([]);
+const [chefs, setChefs] = useState<IChef[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetchProducts();
-        setProducts(data);
+        const data = await fetchChefs();
+        setChefs(data);
       } catch (error) {
-        console.error("Error fetching products:", error);
+        console.error("Error fetching chefs:", error);
       } finally {
         setLoading(false);
       }
@@ -78,7 +78,7 @@ const [products, setProducts] = useState<IChef[]>([]);
     <div className=" mx-auto px-4 py-16 md:px-6 lg:px-8">
      
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {products.map((chef, index) => (
+        {chefs.map((chef, index) => (
           <div key={index} className=" shadow-md overflow-hidden">
             <Image
               // src={chef.image}
