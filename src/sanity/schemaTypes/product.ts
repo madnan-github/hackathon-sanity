@@ -32,6 +32,11 @@ export default {
         }
       },
       {
+        name: 'category',
+        title: 'Category',
+        type: 'string',
+      },
+      {
         name: 'price',
         type: 'number',
         title: 'Product Price',
@@ -54,7 +59,7 @@ export default {
         description: 'Number of ratings'
       },
       {
-        name: 'tags',
+        name: 'sell',
         type: 'array',
         title: 'Tags',
         of: [{ type: 'string' }],

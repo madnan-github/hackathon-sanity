@@ -43,6 +43,12 @@ export const product = {
       type: 'number',
     },
     {
+      name: 'ratingCount',
+      type: 'number',
+      title: 'Rating Count',
+      description: 'Number of ratings'
+    },
+    {
       name: 'sell',
       title: 'Sell Tag',
       type: 'string',
@@ -51,6 +57,16 @@ export const product = {
       name: 'description',
       title: 'Description',
       type: 'text',
+    },
+    {
+      name: 'sizes',
+      type: 'array',
+      title: 'Sizes',
+      of: [{ type: 'string' }],
+      options: {
+        layout: 'tags'
+      },
+      description: 'Add sizes like S , M , L , XL , XXL'
     },
   ]
 }

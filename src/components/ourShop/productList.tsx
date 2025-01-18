@@ -164,11 +164,11 @@ const fetchProducts = async (): Promise<IProduct[]> => {
     name,
     "slug": slug.current,
     image,
+    category,
     price,
     price2,
     rating,
-    sell,
-    description
+    sell
   }`;
   return await client.fetch(query);
 };
