@@ -159,16 +159,15 @@ import React from "react";
 
 // Fetch products using the Sanity client
 const fetchProducts = async (): Promise<IProduct[]> => {
-  const query = `*[_type == "product"]{
-    id,
+  const query = `*[_type == "food"]{
     name,
     "slug": slug.current,
     image,
     category,
     price,
     price2,
-    rating,
-    sell
+    tag,
+    available
   }`;
   return await client.fetch(query);
 };
@@ -179,10 +178,11 @@ interface IProduct {
   slug: string;
   image: Iimage;
   category: string;
+  descriotion: string;
   price: number;
   price2?: number;
-  rating?: number;
-  sell?: string;
+  tag: string[];
+  available: boolean;
 }
 
 const ProductList: React.FC = () => {
@@ -210,7 +210,7 @@ const ProductList: React.FC = () => {
 
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {products.map(({ slug, image, name, price, price2, sell }) => (
+      {products.map(({ slug, image, name, price, price2, descriotion, tag, available }) => (
         <div
           key={slug}
           className="max-w-[312px] rounded-lg shadow-md overflow-hidden"
@@ -225,9 +225,9 @@ const ProductList: React.FC = () => {
                 className="object-cover w-full h-64"
               />
               <div className="absolute top-2 right-2 flex gap-2"></div>
-              {sell && (
+              {tag && (
                 <span className="absolute top-2 left-2 bg-orange-600 text-white rounded-md px-2 text-sm">
-                  {sell}
+                  {tag}
                 </span>
               )}
             </div>

@@ -133,15 +133,15 @@ interface Product {
 }
 
 async function getProduct(slug: string): Promise<Product | null> {
-  const query = `*[_type == "product" && slug.current == $slug][0]{
+  const query = `*[_type == "food" && slug.current == $slug][0]{
     name,
     "slug": slug.current,
     "image": image.asset->url,
     category,
     price,
     price2,
-    rating,
-    sell
+    tag,
+    available
   }`
   return client.fetch(query, { slug })
 }

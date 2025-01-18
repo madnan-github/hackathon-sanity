@@ -26,7 +26,7 @@ export default {
       title: "Current Price",
     },
     {
-      name: "originalPrice",
+      name: "price2",
       type: "number",
       title: "Original Price",
       description: "Price before discount (if any)",
