@@ -114,8 +114,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PaginationProduct } from "@/components/pagination";
 import { urlFor } from "../../sanity/lib/image";
-import { fetchProducts } from "../../components/productdata";
-import { IProduct } from "../../components/productdata";
+import { fetchProducts, IProduct } from "../../components/productdata";
 
 const ITEMS_PER_PAGE = 6;
 
