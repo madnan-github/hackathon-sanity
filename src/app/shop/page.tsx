@@ -8,7 +8,7 @@ import { Container } from '../../components/container'
 import Image from 'next/image'
 import { Search, ChevronDown } from 'lucide-react'
 import { products, categories, latestProducts } from '../../components/ourShop/productData'
-import { PaginationProduct } from "../../components/pagination";
+// import { PaginationProduct } from "../../components/pagination";
 import ProductList from "../../components/ourShop/productList";
 import { PHeader } from '../../components/headers/t2';
 import { TopHeader } from '../../components/headers/topHeader';
@@ -70,9 +70,9 @@ export default function Shop() {
             {/* product section end*/}
 
             {/* pagination */}
-            <div className="mt-12 flex justify-center text-orange-500">
+            {/* <div className="mt-12 flex justify-center text-orange-500">
               <PaginationProduct />
-            </div>
+            </div> */}
           </div>
 
           {/* Sidebar start*/}

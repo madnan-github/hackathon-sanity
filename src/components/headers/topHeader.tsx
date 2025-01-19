@@ -105,11 +105,11 @@ export function TopHeader() {
               </Link>
             </button>
           
-            <button className="group p-0 relative">
+            <button className="group p-0">
               <Link href={'/cart'} >
               <ShoppingBag className="h-6 w-6 text-white group-hover:text-[#FF9F0D]" />
               </Link>
-              {item.length}
+              {/* <span className="text-white">{item.length}</span> */}
             </button>
             
           </div>
