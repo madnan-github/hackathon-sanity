@@ -23,7 +23,7 @@ export default function Header() {
             <li className='hover:text-[#ff9F0D]'><Link href="/">Pages</Link></li>
             <li className='hover:text-[#ff9F0D]'><Link href="/about">About</Link></li>
             <li className='hover:text-[#ff9F0D]'><Link href="/shop">Shop</Link></li>
-            <li className='hover:text-[#ff9F0D]'><Link href="/">Contact</Link></li>
+            <li className='hover:text-[#ff9F0D]'><Link href="/contactUs">Contact</Link></li>
           </ul>
         </nav>
         <div className="relative w-full md:w-auto mt-4 md:mt-0">

@@ -116,7 +116,7 @@ import { PaginationProduct } from "@/components/pagination";
 import { urlFor } from "../../sanity/lib/image";
 import { fetchProducts, IProduct } from "../../components/productdata";
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 3;
 
 const ProductList: React.FC = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
