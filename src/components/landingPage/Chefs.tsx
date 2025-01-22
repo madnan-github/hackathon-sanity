@@ -75,8 +75,9 @@ export default function OurChefs() {
   const chefsToShow = showMore ? chefs : chefs.slice(0, 4);
 
   return (
-    <section className="bg-[#0D0D0D] mx-auto py-4 md:py-16 px-6">
-      <Container>
+    <Container>
+<section className="bg-[#0D0D0D] mx-auto py-4 md:py-16 px-6">
+
         <h2 className="font-greatvibes text-orange-500 text-3xl font-bold text-center mb-8">
           Chefs
         </h2>
@@ -125,7 +126,7 @@ export default function OurChefs() {
             </button>
           )}
         </div>
-      </Container>
     </section>
+    </Container>
   );
 }

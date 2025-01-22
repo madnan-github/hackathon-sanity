@@ -11,10 +11,7 @@ export default function ChefPage() {
                 <TopHeader />
                 <PHeader title='Our Chef'/>
                  {/* import header end*/}
-<OurChefs />
-
-
-
+                <OurChefs />
     </div>
   )
 }

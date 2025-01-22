@@ -11,32 +11,22 @@ import ResturantActive from "@/components/landingPage/resturantActive";
 import BlogPosts from "@/components/landingPage/BlogPosts";
 import Header from "@/components/headers/header";
 
-
 export default function Home() {
   return (
    <>
-   <div className="">
     {/* landing Page */}
-    <Header />
-    <Hero />
+      <Header />
+      <Hero />
       <CreateBest/>
       <FoodCategories />
       <ExtraordinaryTaste />
-       <Statistics />
-    <Menu />
-    <Chefs />
-    
-    <div className="bg-[#0D0D0D]">
-    <Testimonials />
-    </div>
-  
- <ResturantActive />
- <BlogPosts />
+      <Statistics />
+      <Menu />
+      <Chefs />
+      <Testimonials /> 
+      <ResturantActive />
+      <BlogPosts />
  {/* landing Page end*/}
-
-
-                                
-      </div>
 
    </>
   );

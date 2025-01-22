@@ -17,10 +17,10 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <Container>
-    <section className=" mx-auto py-4 md:py-16 px-6 ">
+    <section className="bg-[#0D0D0D] mx-auto py-4 md:py-16 px-6 ">
       <div className='mb-20 md:mb-32'>
-      <h2 className="font-greatvibes text-orange-500 text-3xl font-bold  mb-4">Testimonials</h2>
-      <h2 className="text-2xl md:text-5xl font-bold  text-white">
+      <h2 className="font-greatvibes text-orange-500 text-3xl font-bold  mb-4 text-center">Testimonials</h2>
+      <h2 className="text-2xl md:text-5xl font-bold  text-white text-center">
         What our clients are saying
       </h2>
       </div>
@@ -56,7 +56,6 @@ export default function Testimonials() {
 <span className="flex w-3 h-3 me-3 bg-orange-300 rounded-full "></span>
  </div>
   {/* indicators */}
-
       </div>
     </section>
     </Container>

@@ -74,8 +74,8 @@ const [chefs, setChefs] = useState<IChef[]>([]);
 
 
   return (
-    <Container>
-    <div className=" mx-auto px-4 py-16 md:px-6 lg:px-8">
+    <Container className=" mx-auto px-4 py-16 md:px-6 lg:px-8">
+    {/* <div className=" mx-auto px-4 py-16 md:px-6 lg:px-8"> */}
      
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {chefs.map((chef, index) => (
@@ -111,7 +111,7 @@ const [chefs, setChefs] = useState<IChef[]>([]);
           </div>
         ))}
       </div>
-    </div>
+    {/* </div> */}
     </Container>
   )
 }
