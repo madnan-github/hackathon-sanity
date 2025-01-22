@@ -69,10 +69,6 @@ export default function Shop() {
            
             {/* product section end*/}
 
-            {/* pagination */}
-            {/* <div className="mt-12 flex justify-center text-orange-500">
-              <PaginationProduct />
-            </div> */}
           </div>
 
           {/* Sidebar start*/}
