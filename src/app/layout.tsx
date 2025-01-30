@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Footer from "@/components/Footer";
 import ReduxProvider from "@/components/Cart/reduxprovider";
+import SessionWrapper from "@/components/SessionWrapper";
 
 export const metadata: Metadata = {
   title: "Ecommerce Web App Hackathon",
@@ -17,12 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <SessionWrapper>
       <body className={(inter.variable, poppins.variable, pacifico.variable, yuji_mai.variable, great_vibes.variable)}>
         {/* <Header /> */}
         <ReduxProvider>{children}</ReduxProvider>
 
         <Footer />
       </body>
+      </SessionWrapper>
     </html>
   );
 }

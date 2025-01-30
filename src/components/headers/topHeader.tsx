@@ -1,6 +1,6 @@
 
 "use client"
-
+import { useSession, signIn, signOut } from "next-auth/react"
 import { RootState } from "@/app/redux/Store"; 
 import { useSelector } from "react-redux";
 import * as React from "react"
@@ -25,6 +25,23 @@ export function TopHeader() {
   const pathname = usePathname()
   const [isScrolled, setIsScrolled] = React.useState(false)
   const item = useSelector((state: RootState) => state.cart);
+  const { data: session } = useSession()
+
+  let auth = {
+    isAuth: false,
+    name: null as string | null,
+    email: null as string | null ,
+    image: null as string | null,
+  }
+
+  if (session?.user) {
+    auth = {
+      isAuth: true,
+      name: session.user.name || null,
+      email: session.user.email || null,
+      image: session.user.image || null,
+    }
+  }
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -99,10 +116,10 @@ export function TopHeader() {
               <Search className="h-6 w-6 text-white group-hover:text-[#FF9F0D]" />
             </button>
           
-           <button className="group p-0">
-           <Link href={'/signIn'}>
+           <button className="group p-0" onClick={() => signIn()}>
+           {/* <Link href={'/signIn'}> */}
               <UserRound className="h-6 w-6 text-white group-hover:text-[#FF9F0D]" />
-              </Link>
+              {/* </Link> */}
             </button>
           
             <button className="group p-0">
