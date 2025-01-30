@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { inter, poppins, pacifico, yuji_mai, great_vibes } from "../components/fonts";
+import {
+  inter,
+  poppins,
+  pacifico,
+  yuji_mai,
+  great_vibes,
+} from "../components/fonts";
 import "./globals.css";
 
 import Footer from "@/components/Footer";
@@ -18,14 +24,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <SessionWrapper>
-      <body className={(inter.variable, poppins.variable, pacifico.variable, yuji_mai.variable, great_vibes.variable)}>
+      <body
+        className={
+          (inter.variable,
+          poppins.variable,
+          pacifico.variable,
+          yuji_mai.variable,
+          great_vibes.variable)
+        }
+      >
         {/* <Header /> */}
-        <ReduxProvider>{children}</ReduxProvider>
-
-        <Footer />
+        <SessionWrapper>
+          <ReduxProvider>{children}</ReduxProvider>
+          <Footer />
+        </SessionWrapper>
       </body>
-      </SessionWrapper>
     </html>
   );
 }
